@@ -1,24 +1,22 @@
-const count = (number) => {
+class Solution{
 
-    if (number === 0) return 1;
+        counter(num){
 
-
-    let count = 0;
-   
-    number = Math.abs(number)
-
-    while(number > 0)
-    {
-        number = Math.floor(number / 10)
-        count++;
-    }
-
-    return count;
+            let count = 0;
+            
+            num = Math.abs(num)
+            while(num > 0)
+            {
+                
+                 num = Math.floor(num / 10);
+                 count++;
+            }
+            return count;
+        }
 }
 
-// let digit = 289;
-let digit = -128;
+const num = -562
+const sol = new Solution()
+const ans = sol.counter(num)
 
-let result = count(digit)
-
-console.log(result);
+console.log(`Count Digits = ${ans}`);
