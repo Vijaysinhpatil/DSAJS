@@ -27,5 +27,5 @@ Selection Sort works by repeatedly finding the smallest element from the unsorte
 **Worst And Average Case**
 >O(n²)
 
-## space Complexity
+**space Complexity**
 >O(1)

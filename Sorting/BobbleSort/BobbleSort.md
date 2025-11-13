@@ -24,5 +24,5 @@ After each pass, the **largest element "bubbles up"** to its correct position at
 **Worst And Average Case**
 >O(n²)
 
-## space Complexity
+**space Complexity**
 >O(1)
